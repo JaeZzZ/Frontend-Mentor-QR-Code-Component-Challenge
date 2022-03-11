@@ -13,35 +13,32 @@
 body {
     background-color: var(--light-gray);
     height: 100%;
+    display: grid;
+    place-items: center;
 }
 
 main {
     background-color: var(--white);
     border-radius: 20px;
     width: 300px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    position: relative;
     margin: 150px auto 0 auto; 
     box-shadow: -1px 12px 23px -4px rgba(31,50,81,0.09);
 }
 
 figure {
     margin: 15px auto 0;
+    width: 90%;
 }
 
 figure img {
     border-radius: 10px;
-    height: 270px;
+    width: 100%;
     position: relative;
     margin: 0 auto;
 }
 
 article {
     text-align: center;
-    align-items: center;
-    position: relative;
     padding: 0 20px 20px;
     margin: 0 auto;
 }
